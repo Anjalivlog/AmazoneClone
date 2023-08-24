@@ -1,0 +1,66 @@
+.Footer {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 14px;
+    background: #000;
+}
+
+.FooterBottomToTop {
+    background: #232f3e;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.FooterBottomToTop:hover {
+    cursor: pointer;
+    background: #3368a9;
+}
+
+/* .FooterBottomToTopText {
+    display: block;
+    padding: 10px 0;
+    line-height: 19px;
+    font-size: 40px !important;
+    color: #fff;
+} */
+
+.FooterVerRow {
+    display: table;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+
+.FooterVerCol {
+    display: table-cell;
+    line-height: 18px;
+    padding: 0 10px;
+}
+
+.FooterVerColHead {
+    font-size: 15px;
+    margin: 6px 0 15px 0;
+    white-space: nowrap;
+    font-weight: 700;
+    font-weight: 800;
+}
+
+.FooterVercol > ul {
+    margin: 0;
+    padding: 0;
+}
+
+.FooterVerCol > ul > li {
+    cursor: pointer;
+}
+
+.FooterLast {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.FooterMess {
+    align-items: center;
+    font-size: 120%;
+    display: flex;
+}
